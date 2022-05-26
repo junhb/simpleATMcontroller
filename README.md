@@ -9,7 +9,7 @@ A simple ATM controller designed for assessment purpose. Only functions, classes
 </code></pre>
 # Code Design
 The structure of the program is divided into three main parts.
-## Bank class
+## <code>Bank</code> class
 <ul>
   <li>The constructor is initiallized with <code>data</code> dictionary for storing all the details of users as</li>
   <li><code>add_user</code> function adds users to <code>data</code>. The user id, name, card number, pin should be passed for initiation. <code>Accounts</code> key is initialized to store different kinds of accounts (e.g.) Savings, Checking, etc.) </li>
@@ -17,4 +17,12 @@ The structure of the program is divided into three main parts.
   <li><code>add_account</code> function to verify whether the info of the user of the inserted card is in the bank <code>data</code> </li>
   <li><code>get_id</code> function returns the <code>user_id</code> when the card number is passed</li>
   <li><code>check_pin</code> function returns <code>True</code> if the pin number matches the user info. Otherwise, <code>False</code> is returned. </li>
+  <li><code>get_accounts</code> function returns the accounts owned by a user</li>
+  <li><code>get_accounts</code> function returns the accounts owned by a user</li>
+</ul>
+
+## <code>ATMController</code> class
+
+<ul>
+   <li></li>
 </ul>
