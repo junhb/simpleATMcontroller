@@ -1,5 +1,5 @@
 # simpleATMcontroller
-A simple ATM controller designed for assessment purposes. As required by the design specification, functions, classes, and methods are implemented. This program can be extended with interfaces. 
+A simple ATM controller designed for assessment purposes. As required by the design specification, functions, classes, and methods are implemented. This program can be extended by adding interfaces. 
 # Installation
 <strong>Step 1:</strong> Download the source from the terminal:
 <pre><code>git clone https://github.com/junhb/simpleATMcontroller
