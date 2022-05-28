@@ -41,5 +41,5 @@ The main function will run a few test cases using the <code>assert</code> statem
   <li> Existing accounts and non-existing accounts are passed for testing purposes. </li>
   <li> <code>see_balance</code>, <code>deposit</code>, <code>withdraw</code> functions are tested. </li>
   <li> The test prints "Everything passed" if all sanity checks are done.</li>
-  <li> More test cases can be added in the <code>main</code> function.</li>
+  <li> More test cases can be added to the <code>main</code> function.</li>
 </ul>
