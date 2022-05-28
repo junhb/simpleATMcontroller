@@ -15,7 +15,7 @@ The structure of the program is divided into three main parts.
   <li><code>add_user</code> function adds users to <code>data</code>. The ID, name, card number, and PIN of the user should be passed for initialization. <code>Accounts</code> is initialized for storing different types of accounts (e.g. savings, checking, etc.) </li>
   <li><code>add_account</code> function adds accounts for users. The type of the account and the initial balance should be passed. The balance can be changed so that the balance is 0 if an initial deposit is not made.</li>
   <li><code>get_id</code> function returns the <code>user_id</code> when the card number is passed.</li>
-  <li><code>check_pin</code> function returns <code>True</code> if the PIN number matches that in the system. Otherwise, <code>False</code> is returned. </li>
+  <li><code>check_pin</code> function returns <code>True</code> if the PIN matches that in the system. Otherwise, <code>False</code> is returned. </li>
   <li><code>get_accounts</code> function returns all the accounts owned by the user</li>
 </ul>
 
