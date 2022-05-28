@@ -33,10 +33,6 @@ class Bank:
     def get_accounts(self, user_id):
         return self.data[user_id]["ACCOUNTS"]
 
-    # test
-    def get_users(self):
-        return self.data
-
 class ATMController:
     def __init__(self, bank):
         self.Bank = bank
