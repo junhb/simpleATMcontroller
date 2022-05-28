@@ -32,7 +32,7 @@ The structure of the program is divided into three main parts.
 </ul>
 
 ## <code>main</code> function
-The main function will run few test cases using the <code>assert</code> statements. 
+The main function will run a few test cases using the <code>assert</code> statements. 
 <ul>
   <li> <code>sys.exit()</code> is called if the Python version is lower than 3.10.2 </li> 
   <li> Few hypothetical users are added to <code>test_bank</code>, with <code>user_id</code>, <code>user_name</code>, <code>card_num</code>. </li>
