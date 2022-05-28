@@ -36,7 +36,7 @@ The main function will run a few test cases using the <code>assert</code> statem
 <ul>
   <li> <code>sys.exit()</code> is called if the Python version is lower than 3.10.2 </li> 
   <li> Few hypothetical users are added to <code>test_bank</code>, with <code>user_id</code>, <code>user_name</code>, <code>card_num</code>. </li>
-  <li> Few cards are thought to be inserted to the <code>test_atm</code>. This is done by passing their card numbers. The program returns <code>True</code> if the card number exists in the bank <code>data</code>. <code>False</code> is returned if the card number does not exist in <code>data</code>. </li>
+  <li> Few cards are thought to be inserted into the <code>test_atm</code>. This is done by passing their card numbers. The program returns <code>True</code> if the card number exists in the bank <code>data</code>. <code>False</code> is returned if the card number does not exist in <code>data</code>. </li>
   <li> Correct PINs and wrong PINs are passed for testing purposes. </li>
   <li> Existing accounts and non-existing accounts are passed for testing purposes. </li>
   <li> <code>see_balance</code>, <code>deposit</code>, <code>withdraw</code> functions are tested. </li>
